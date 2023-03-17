@@ -14,8 +14,6 @@ $S = 11\cdot\left(9091A + 910B + 100C\right)$
 
 Therefore, one of the three digit numbers $\left(M, N\right)$ must be divisible by $11$. Suppose that it's $M$.
 
-### Current tactic
-
 Set $M = 990 = 11\cdot90$ and $N = 999$.
 
 Set $S = MN$.
@@ -24,4 +22,4 @@ Iterate as follows:
 
 Check if $S$ is a palindrome and return it if so.
 
-If not, set $S = \max\left(M-11)N, M(N-1)\right)$ and update $M$ and $N$ accordingly.
+If not, set $S = \max\left(999(M-11), M(N-1)\right)$ and update $M$ and $N$ accordingly.
