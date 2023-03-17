@@ -5,7 +5,7 @@ class Fibonacci
 {
     public static function evenFib(int $n): int
     {
-        /* Using formula for Nth Fibonacci number */
+        /* Using formula for nth Fibonacci number */
         $bigPhi = (1 + sqrt(5))/2;
         $smallPhi = (1 - sqrt(5))/2;
 
