@@ -10,7 +10,7 @@ Let $N = 600851475143$.
 
 Set $S = 1$.
 
-Iterate through odd natural numbers $n \geq 3$ until one of them divides into $N$.
+Iterate through odd natural numbers $n \geq 3$ until one of them divides into $N$. By parity, no even number can divide into $N$ so we can skip those. Also, no evens other than 2 are prime anyway.
 
 $n$ will be prime (if not, we would have run into a smaller $n$ before then).
 
