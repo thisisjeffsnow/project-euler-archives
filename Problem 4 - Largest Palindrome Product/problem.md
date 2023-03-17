@@ -12,11 +12,11 @@ Let $S = ABCCBA = 100000A + 10000B + 1000C + 100C + 10B + A$
 
 $S = 11\cdot\left(9091A + 910B + 100C\right)$
 
+Set $S = MN$.
+
 Therefore, one of the three digit numbers $\left(M, N\right)$ must be divisible by $11$. Suppose that it's $M$.
 
 Set $M = 990 = 11\cdot90$ and $N = 999$.
-
-Set $S = MN$.
 
 Iterate as follows:
 
