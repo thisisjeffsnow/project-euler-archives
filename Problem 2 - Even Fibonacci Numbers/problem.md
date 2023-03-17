@@ -8,7 +8,7 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 
 # Solution
 
-$$F_0 = 0, F_1 = 1, F_2 = 1, F_3 = 2...$$
+Assign the Fibonacci sequence to $F_n$ so that $F_0 = 0, F_1 = 1, F_2 = 1, F_3 = 2...$
 
 Use the formula for the nth Fibonacci number:
 
@@ -18,12 +18,9 @@ $$\phi = \frac{1 - \sqrt{5}}{2}$$
 
 $$F_n = \frac{\Phi^{n} - \phi^{n}}{\sqrt{5}}$$
 
-From parity, $$F_n$$ is even for $$n = 3k$$
+From parity, $F_n$ is even for $n = 3k$.
 
-Therefore,
-
-$$S = \sum_{n = 1}^N(F_{3n})$$
-
-For some value of N such that the addend doesn't meet or exceeed four million.
+Therefore, $S = \sum_{n = 1}^N(F_{3n})$
+for some value of N such that the addend doesn't meet or exceeed four million.
 
 Create a running total. Iterate over an index, grabbing the next even Fibonacci number. Check if it's less than 4 million. If so, add it to the total. If not, break the iteration and return the total.
