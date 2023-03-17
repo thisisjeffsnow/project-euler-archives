@@ -10,7 +10,7 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 
 $$F_0 = 0, F_1 = 1, F_2 = 1, F_3 = 2...$$
 
-Use the formula for the Nth Fibonacci number:
+Use the formula for the nth Fibonacci number:
 
 $$\Phi = \frac{1 + \sqrt{5}}{2}$$
 
