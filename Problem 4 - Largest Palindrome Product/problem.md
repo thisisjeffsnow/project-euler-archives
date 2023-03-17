@@ -10,6 +10,6 @@ By quick inspection, $10101 = 101 \cdot 101$ and $111111 = 777 \cdot 143$ while 
 
 Let $S = ABCCBA = 100000A + 10000B + 1000C + 100C + 10B + A$
 
-$ = 11\cdot\left(9091A + 910B + 100C\right)$
+$S = 11\cdot\left(9091A + 910B + 100C\right)$
 
 Now what?
