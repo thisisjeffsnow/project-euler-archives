@@ -26,4 +26,4 @@ $$S = \sum_{n = 1}^N(F_{3n})$$
 
 For some value of N such that the addend doesn't meet or exceeed four million.
 
-Create a running total. Iterate over an index, grabbing the next even Fibonacci number. Check if it's less than 4 million. If so, add it to the total. If not, break the interation and return the total.
+Create a running total. Iterate over an index, grabbing the next even Fibonacci number. Check if it's less than 4 million. If so, add it to the total. If not, break the iteration and return the total.
