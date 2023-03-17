@@ -15,7 +15,7 @@ $$\phi = \frac{1 - \sqrt{5}}{2}$$
 
 $$F_n = \frac{\Phi^{n} - \phi^{n}}{\sqrt{5}}$$
 
-From parity, $$F_n$$ is even for $$n = 3k, k \in \N$$
+From parity, $$F_n$$ is even for $$n = 3k$$
 
 Therefore,
 
