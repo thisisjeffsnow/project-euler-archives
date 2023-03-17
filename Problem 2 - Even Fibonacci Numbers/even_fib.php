@@ -22,7 +22,7 @@ $limit = 3999999;
 while(true)
 {
     /* Pump out even Fibonacci numbers and add to our total
-    until we exceed 4 million */
+    until the current Fib meets or exceeds 4 million */
     $currentEvenFib = Fibonacci::evenFib($index);
     if($currentEvenFib < $limit) {
         $sum += $currentEvenFib;
