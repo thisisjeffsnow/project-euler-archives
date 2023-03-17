@@ -12,7 +12,7 @@ Let $S = ABCCBA = 100000A + 10000B + 1000C + 100C + 10B + A$
 
 $S = 11\cdot\left(9091A + 910B + 100C\right)$
 
-Therefore, one of the three digit numbers must be divisible by $11$, say $M$ and $N$.
+Therefore, one of the three digit numbers $\left(M, N\right)$ must be divisible by $11$. Suppose that it's $M$.
 
 ### Current tactic
 
