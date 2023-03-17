@@ -9,8 +9,11 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 # Solution
 
 $$F_0 = 0, F_1 = 1, F_2 = 1, F_3 = 2...$$
+
 Use the formula for the Nth Fibonacci number:
+
 $$\Phi = \frac{1 + \sqrt{5}}{2}$$
+
 $$\phi = \frac{1 - \sqrt{5}}{2}$$
 
 $$F_n = \frac{\Phi^{n} - \phi^{n}}{\sqrt{5}}$$
