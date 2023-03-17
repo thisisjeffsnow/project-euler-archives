@@ -22,4 +22,4 @@ Iterate as follows:
 
 Check if $S$ is a palindrome and return it if so.
 
-If not, set $S = \max\left(999\cdot(M-11),\;M\cdot(N-1)\right)$ and update $M$ and $N$ accordingly.
+If not, set $S = \max\left(999\cdot(M-11), M\cdot(N-1)\right)$ and update $M$ and $N$ accordingly.
