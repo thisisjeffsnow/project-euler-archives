@@ -4,8 +4,6 @@ $bigN = 600851475143;
 $bigS = 1;
 
 $n = 3;
-$c = 1;
-
 while($bigN != 1)
 {
     while($bigN/$n != floor($bigN/$n))
