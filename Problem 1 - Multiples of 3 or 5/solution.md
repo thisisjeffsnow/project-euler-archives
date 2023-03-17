@@ -1,4 +1,4 @@
-Problem
+## Problem
 
 ```
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
@@ -6,11 +6,9 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 Find the sum of all the multiples of 3 or 5 below 1000.
 ```
 
-Solution
+## Solution
 
-```
 I did this one with pen and paper. Sum together all the multiples of 3 from 3 to 999 along with the sum of all multiples of 5 from 5 to 995, and since we've double-counted all the multiples of 15, subtract all multiples of 15 in the range 15 to 990 from the total.
-```
 
 $$\left\lfloor\frac{999}{3}\right\rfloor\ = 333$$
 $$\left\lfloor\frac{999}{5}\right\rfloor\ = 199$$
