@@ -17,7 +17,7 @@ $sum = 0;
 $index = 0;
 
 /* Problem says only add even terms that are less than 4 million. */
-$limit = 3999999;
+$limit = 4000000;
 
 while(true)
 {
