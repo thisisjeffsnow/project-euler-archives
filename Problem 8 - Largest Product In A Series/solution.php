@@ -24,9 +24,11 @@ $n =
     "05886116467109405077541002256983155200055935729725" .
     "71636269561882670428252483600823257530420752963450";
 
-preg_match_all("#[^0]+#", $n, $matches);
+// preg_match_all("#[^0]+#", $n, $matches);
 
-$subStrings = $matches[0];
+// $subStrings = $matches[0];
+
+$subStrings = explode('0', $n);
 $maxS = 0;
 
 foreach ($subStrings as $string) {
