@@ -39,6 +39,7 @@ foreach ($subStrings as $string) {
     for ($i = 0; $i < $digits; $i++) {
         $currentS *= $string[$i];
     }
+    $maxS = max($maxS, $currentS);
 
     for ($i = $digits; $i < $slen; $i++) {
         $currentS *= $string[$i] / $string[$i - $digits];
