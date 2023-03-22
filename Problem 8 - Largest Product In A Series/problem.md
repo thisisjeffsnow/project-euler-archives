@@ -31,7 +31,7 @@ Set $S$ to $0$.
 
 Parse the string and return the largest possible substrings which do not contain zero.
 
-For any substring with a length of thirteen or greater, set a product variable equal to the product of the first thireteen digits, and iterate through the string, dividing that product by the next digit while dividing it by the trailing digit. Keep track of the largest product seen.
+For any substring with a length of thirteen or greater, set a product variable equal to the product of the first thirteen digits, and iterate through the string, dividing that product by the next digit while dividing it by the trailing digit. Keep track of the largest product seen.
 
 Do this for all valid substrings.
 
