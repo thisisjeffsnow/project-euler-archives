@@ -19,9 +19,9 @@ If $a$, $b$, and $c$ all share a common factor, say $k$, then
 
 if $a^2 + b^2 = c^2$, then $\left(\frac{a}{k}\right)^2 + \left(\frac{b}{k}\right)^2 = \left(\frac{c}{k}\right)^2$, and $\frac{a}{k} + \frac{b}{k} = \frac{c}{k}$.
 
-It is not a bad idea to investigate smaller triplets which sum to a divisor of $1000$. In fact, since we are given that there is only triplet with the required property, there must be only one value of $k$ that satisifies this.
+It is not a bad idea to investigate smaller triplets which sum to a divisor of $1000$. In fact, since we are given that there is only triplet with the required property, there must exist one triplet of relative prime integers with one value of $k$.
 
-If you list some common triplets with their sums like this:
+If you list some common relatively prime triplets with their sums like this:
 
 $(3, 4, 5) = 12$
 
