@@ -14,9 +14,11 @@ I did this one with pen and paper.
 
 First consider the following:
 
-If $a, b, \text{and } c$ all share a common factor, say, $k$, then if $a^2 + b^2 = c^2$, then $\left(\frac{a}{k}\right)^2 + \left(\frac{b}{k}\right)^2 = \left(\frac{c}{k}\right)^2$
+If $a$, $b$, and $c$ all share a common factor, say $k$, then
 
-It is not a bad idea to investigate smaller tripets which sum to a divisor of $1000$. In fact, since we are given that there is only triplet with the required property, there must be only one value of $k$ that satisifies this.
+if $a^2 + b^2 = c^2$, then $\left(\frac{a}{k}\right)^2 + \left(\frac{b}{k}\right)^2 = \left(\frac{c}{k}\right)^2$, and $\frac{a}{k} + \frac{b}{k} = \frac{c}{k}$.
+
+It is not a bad idea to investigate smaller triplets which sum to a divisor of $1000$. In fact, since we are given that there is only triplet with the required property, there must be only one value of $k$ that satisifies this.
 
 If you list some common triplets with their sums like this:
 
