@@ -17,7 +17,7 @@ First consider the following:
 
 If $a$, $b$, and $c$ all share a common factor, say $k$, then
 
-if $a^2 + b^2 = c^2$, then $\left(\frac{a}{k}\right)^2 + \left(\frac{b}{k}\right)^2 = \left(\frac{c}{k}\right)^2$, and $\frac{a}{k} + \frac{b}{k} = \frac{c}{k}$.
+if $a^2 + b^2 = c^2$, then $\left(\frac{a}{k}\right)^2 + \left(\frac{b}{k}\right)^2 = \left(\frac{c}{k}\right)^2$, and $\frac{a}{k} + \frac{b}{k} + \frac{c}{k} = \frac{1000}{k}$.
 
 It is not a bad idea to investigate smaller triplets which sum to a divisor of $1000$. In fact, since we are given that there is only triplet with the required property, there must exist one triplet of relative prime integers with one value of $k$.
 
